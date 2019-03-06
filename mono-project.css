@@ -544,7 +544,7 @@ section img {
         background-size: cover;
     }
     #section-1 .picture-container img{
-        
+        display: none;
     }
     #section-2 .container-item .h-2{
         padding-top: 10px;
