@@ -458,7 +458,7 @@ section img {
     }
     header{
         background-size: cover;
-        position: relative;
+        position: unset;
     }
     header ul{
         width: 23%;
@@ -540,7 +540,7 @@ section img {
         height: 252px;
         margin-right: 0px;
         background-color: gray;
-        background-image: url("photos/iceberg.jpg");
+        background-image: url("photos/iceberg(red).jpg");
         background-size: cover;
     }
     #section-1 .picture-container img{
