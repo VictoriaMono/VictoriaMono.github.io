@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mono</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="fav-2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="fav-2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="ddscrollspydemo.css">
+    <link rel="stylesheet" type="text/css" href="mono-project.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="fm.revealator.jquery.css">
+    <script src="fm.revealator.jquery.js"></script>
+    <script src="ddscrollspy.js"></script> <!--DD ScrollSpy Menu Script (c) Dynamic Drive (www.dynamicdrive.com)-->
+    <script type="text/javascript">
+    jQuery(function($){ // on document load
+    $('#horizontalmenu-1').ddscrollSpy({ // initialize first demo
+        scrolltopoffset: -50
+    })
+    $('#horizontalmenu-2').ddscrollSpy({ // initialize first demo
+        scrolltopoffset: -50
+    })
+    })
+    </script>
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+    <div class="row revealator-fade">
+        <nav id="navigation-left" class="col-xs-12 col-sm-12 offset-md-1 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4 text-left">
+            <ul id="horizontalmenu-1" class="underlinemenu">
+                <li><a href="#section-1"><p>Home</p></a></li>
+                <li><a href="#section-2"><p>About</p></a></li>
+                <li><a href="#section-3"><p>Journal</p></a></li>
+                <li class="invis"><a href="#section-6"></a></li>
+            </ul>
+        </nav>
+        <div id="title" class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-center navigation"><h1 id="h-1"><img src="logo-mini.png" alt="mono logo"></h1></div>
+        <nav id="navigation-right" class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 text-right navigation">
+            <ul id="horizontalmenu-2" class="underlinemenu">
+                <li class="invis"><a href="#section-5"></a></li>
+                <li><a href="#section-6"><p>Photos</p></a></li>
+                <li><a href="#section-7"><p>Contact</p></a></li>
+                <li><a href="#section-7"><p>Social</p></a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<section id="section-1">
+    <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 text-center revealator-slideup">
+            <h3 class="rotate-left text-center" id="scroll">Scroll down</h3>
+        </div>
+        <div class="col-xs-12 col-sm-12 d-md-none d-lg-none d-xl-none picture-container">
+            <img src="photos/iceberg(red).jpg" alt="Iceland iceberg">
+        </div>
+        <div class="d-none d-md-block offset-md-1 col-md-10 offset-lg-0 col-lg-10 offset-xl-0 col-xl-10 picture-container">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="photos/iceberg(redtext).jpg" data-src="holder.js/900x400?theme=social" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="photos/mountain(redtext).jpg" data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="photos/sea(redtext).jpg" data-src="holder.js/900x400?theme=industrial" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+    </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 text-center revealator-slideup">
+            <h3 class="rotate-right text-center">Mono project</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section id="section-2">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-1 col-md-4 offset-lg-1 col-lg-4 offset-xs-1 col-xl-4 text-left">
+        <div class="container-item revealator-slideright">
+        <h2 class="h-2">about us.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div>
+            <ul class="text-left">
+                <li><a><p class="cross">Contact</p></a></li>
+                <li><a><p class="cross">Click here</p></a></li>
+                <li><a><p class="cross">Link</p></a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        <div class="col-xs-12 col-sm-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5">
+            <img id="girl-photo" src="photos/girl-photo(red).jpg" alt="Marie Zhou">
+        </div>
+    </div>
+    </div>
+</section>
+<section id="section-3">
+    <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 text-center revealator-slideright">
+            <h3 class="rotate-left text-center">Highlighted<span>_</span>project</h3>
+        </div>
+        <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-1 col-md-10 offset-lg-0 col-lg-10 offset-xl-0 col-xl-10 picture-container">
+            <div>
+                <img src="photos/iceland-1(red).jpg" alt="Iceland landscape">
+            </div>
+            <div class="container-item revealator-slideleft">
+                <h2 class="h-2">the passion<br> project.</h2>
+                <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section id="section-4">
+    <div class="container-fluid">
+    <div class="row align-items-center">
+        <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-1 col-md-4 offset-lg-1 col-lg-4 offset-xl-1 col-xl-3 text-left container-item revealator-slideright">
+            <h2 class="h-2">Project 001</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10  offset-md-0 col-md-2 col-lg-2 col-xl-3 text-center revealator-slideup">
+            <a class="project"><span class="helper"><p class="cross view-project">View project</p></span></a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img src="photos/boy-photo(red).jpg" alt="Brian Thorne" id="boy-photo">
+        </div>
+        <div class="d-none d-lg-block col-lg-1 col-xl-1 text-center revealator-slideleft">
+            <h3 class="rotate-right text-center">Project<span id="clear">_</span>sections</h3>
+        </div>
+    </div>
+</div>
+</section>
+<section id="section-5">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5 offset-xl-1 col-xl-5">
+    <img src="photos/iceberg-2(red).jpg" alt="North Ward">
+    </div>
+    <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-0 col-md-4 col-lg-4 col-xl-3 text-left container-item revealator-slideleft">
+        <h2 class="h-2">Project 002</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-0 col-md-2 offset-lg-0 col-lg-2 offset-xl-0 col-xl-2 text-center revealator-slideup">
+        <a class="project"><span class="helper"><p class="cross view-project">View project</p></span></a>
+    </div>
+    </div>
+</div>
+</section>
+<section id="section-6">
+    <div class="container-fluid">
+    <div class="row" id="picture-row">
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"> <img src="photos/iceland-square-3.jpg" alt="Black sands"></div>
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"> <img src="photos/iceland-square-1.jpg" alt="North water"></div>
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"><img src="photos/iceland-square-6.jpg" alt="Iceland house"></div>
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"><img src="photos/iceland-square-4.jpg" alt="The seagull"></div>
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"><img src="photos/iceland-square-2.jpg" alt="The mountain"></div>
+    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 rowpic revealator-fade"><img src="photos/iceland-square-5.jpg" alt="Iceland sand"></div>
+    </div>
+</div>
+</section>
+<section id="section-7">
+    <div class="container-fluid">
+    <div class="row text-center">
+    <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-3 col-md-6 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6 text-center">
+        <div class="revealator-slidedown">
+        <h2 class="h-2">We've got jackets</h2>
+        <p>Consectetur adipiscing elit, sed.</p>
+        </div>
+        <div class="text-center">
+            <form id="email">
+                    <input id="email-field" type="text" name="email" placeholder="Enter Email">
+                    <input id="arrow-button" type="submit" value="">
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<footer>
+    <div class="container-fluid">
+    <div class="row text-left">
+        <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 col-md-4 col-lg-4 col-xl-4">
+            <div class="row" id="icons">
+                <a href="https://www.facebook.com/" target="_blank"><img src="icons/fb-con.png" alt="facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="icons/tw-con.png" alt="twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="icons/inst-con.png" alt="instagram"></a>
+                <a href="https://ru.pinterest.com/" target="_blank"><img src="icons/pint-con.png" alt="pinterest"></a>
+            </div>
+            <div id="icons-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+        </div>
+        <div class="offset-xs-1 col-xs-10 offset-sm-1 col-sm-10 offset-md-1 col-md-5 offset-lg-2 col-lg-4 offset-xl-2 col-xl-4">
+            <div id="footer-links">
+            <div class="links-column">
+                <p class="links-column-header">menu</p>
+                <a><p>Alisonfurt</p></a>
+                <a><p>Miraclebury</p></a>
+                <a><p>Halleborough</p></a>
+                <a><p>Sadyechester</p></a>
+                <a><p>Brennanfort</p></a>
+                <a><p>Oceaneside</p></a>
+            </div>
+            <div class="links-column">
+                <p class="links-column-header">journal</p>
+                <a><p>Karianefurt</p></a>
+                <a><p>New Ariside</p></a>
+                <a><p>Arianeburgh</p></a>
+                <a><p>Auguston</p></a>
+                <a><p>New Clarabelle</p></a>
+                <a><p>Brookfurt</p></a>
+            </div>
+            <div class="links-column">
+                <p class="links-column-header">buy theme</p>
+                <a><p>Jeremiestad</p></a>
+                <a><p>Wavaville</p></a>
+                <a><p>Ronnyfurt</p></a>
+                <a><p>New Kristofer</p></a>
+                <a><p>East Vern</p></a>
+                <a><p>Lake Dane</p></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>

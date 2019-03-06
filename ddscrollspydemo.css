@@ -1,0 +1,41 @@
+/* ######### CSS for horizontal menu demo  ######### */
+
+/*ul.underlinemenu li a:hover, ul.underlinemenu li a.selected{
+/*text-shadow: 1px 1px 1px yellow;
+color: black;
+text-decoration: line-through;
+}#3d434b;*/
+ul.underlinemenu li a:hover{
+	text-decoration: none;
+}
+ul.underlinemenu li a:after{
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: #000;
+    transition: width .4s ease-in-out;
+    position: absolute;
+    bottom: 70%
+}
+ul.underlinemenu li{
+    position: relative;
+}
+ul.underlinemenu li a{
+    color: #000;
+    transition: 1s linear;
+}
+ul.underlinemenu li a:active{
+    color: #6d767b;
+}
+ul.underlinemenu li a:hover:after, ul.underlinemenu li a.selected:after{
+    width: 100%;
+}
+ul.underlinemenu li a:active:after{
+    background-color: #6d767b;
+}
+@media only screen and (max-width: 767px){
+	ul.underlinemenu li a:hover:after, ul.underlinemenu li a.selected:after{
+	width: 0%;
+}
+}
